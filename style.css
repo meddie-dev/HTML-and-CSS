@@ -1,0 +1,1571 @@
+/*APPLYING COLOR IN CSS */
+
+*{
+    box-sizing: border-box;
+}
+
+/* NAME OF COLOR */
+#p1{
+    background-color: lightsalmon;
+    color: aliceblue;
+}
+
+/* RGB  COLOR */
+#p2{
+    background-color: rgb(250, 250, 210);
+    color: rgb(0, 0, 255);
+}
+
+/* HEX  COLOR */
+#p3{
+    background-color: #ffff00;
+    color: #000000;
+}
+
+/* HSL COLOR */
+#p4{
+    background-color: hsl(120, 73%, 75%);
+    color: hsl(0, 0%, 100%);
+}
+
+/*APPLYING FONT IN CSS */
+
+
+#p5{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+
+#p6{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1em;
+}
+
+
+#p7{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1em;
+}
+
+
+#p8{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 1em;
+}
+
+/*APPLYING BORDER IN CSS */
+
+/* BORDER STYLES */
+#b1{
+    border-style: solid;
+}
+
+#b2{
+    border-style: dashed;
+}
+
+#b3{
+    border-style: dotted;
+}
+
+#b4{
+    border-style: double;
+}
+
+#b5{
+    border-style: groove;
+}
+
+#b6{
+    border-style: hidden;
+}
+
+#b7{
+    border-style:inset;
+}
+
+#b8{
+    border-style: outset;
+}
+
+#b9{
+    border-style: ridge;
+}
+
+#b10{
+    text-align: center;
+    border: 5px solid lightsalmon;
+    border-radius: 20px;
+}
+
+#b11{
+    border-bottom: 5px solid yellow;
+    border-top: 5px solid tomato;
+    border-left: 5px dotted blue;
+    border-right: 5px dotted lightgreen;
+}
+
+/* SHADOW IN CSS */
+
+#s1{
+    text-shadow: 3px 3px 5px rgb(150, 47, 29), -3px -3px 5px aqua;
+}
+
+#s2{
+    width: 200px;
+    height: 200px;
+    background-color: lightcoral;
+    box-shadow: 5px 5px 5px rgb(150, 47, 29), -5px -5px 5px rgb(169, 231, 231);
+}
+
+/* MARIGIN IN CSS */
+
+.box{
+    width: 150px;
+    height: 150px;
+    border: 5px solid;
+    font-size: 2em;
+    text-align: center;
+    margin: 10px;
+}
+
+#m1{
+    background-color: blanchedalmond;
+    margin: auto;
+}
+
+#m2{
+    background-color: lawngreen;
+    margin-right: auto;
+}
+
+#m3{
+    background-color:aquamarine ;
+    margin-left: auto;
+}
+
+/*FLOAT IN CSS*/
+
+.float{
+    padding: 10px;
+    border: 5px solid;
+    display: flow-root;
+}
+
+#f1{
+    float: left;
+    margin-right: 10px;
+}
+
+#f2{
+    float: right;
+    margin-left: 10px;
+}
+
+/*OVERFLOW IN CSS*/
+
+.over{
+    border: 5px solid;
+    padding: 10px;
+}
+
+#o1{
+    border: 2px solid;
+    height: 75px;
+    overflow: visible;
+}
+
+#o2{
+    border: 2px solid;
+    height: 75px;
+    overflow: hidden;
+}
+
+#o3{
+    border: 2px solid;
+    height: 75px;
+    overflow: clip;
+    overflow-clip-margin: 15px;
+}
+
+#o4{
+    border: 2px solid;
+    height: 75px;
+    overflow: scroll;
+}
+
+#o5{
+    border: 2px solid;
+    height: 75px;
+    overflow: auto;
+}
+
+/*DISPLAY IN CSS*/
+
+.display{
+    border: 3px solid;
+    padding: 10px;
+}
+
+#d1{
+    background-color: aquamarine;
+}
+
+#d2{
+    background-color: tomato;
+}
+
+#d3{
+    background-color: aquamarine;
+    display: inline;
+}
+
+#d4{
+    background-color: tomato;
+    display: block;
+}
+
+/*HEIGHT AND WIDTH IN CSS*/
+
+.hw_container{
+    background-color: aliceblue;
+    height: 50vh;
+}
+
+.hw{
+    border: 2px solid;
+    background-color: skyblue;
+    width: 50%;
+    height: auto;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+}
+
+.hw1{
+    border: 2px solid;
+    background-color: aquamarine;
+    width: 50%;
+    height: auto;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+
+    min-height: 50%;
+}
+
+.hw2{
+    border: 2px solid;
+    background-color: aqua;
+    width: 50%;
+    height: auto;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+
+    max-height: 50%;
+}
+
+/*BACKGROUND IMAGE IN CSS*/
+
+.bg{
+    background-image: url(image/al-nassr.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#bg0{
+    width: 100px;
+    height: 100px;
+    float: left;
+    display: flow-root;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+
+#bg1, #bg2{
+    color: white;
+}
+
+#bg_content{
+    border: 3px solid white;
+    margin: 5px;
+    padding: 5px;
+}
+
+/*COMBINATORS IN CSS*/
+
+/*Descendant Combinator*/
+.descendant{
+    border: 2px solid;
+}
+
+.descendant p{
+    background-color: tan;
+}
+
+/*ChildCombinator*/
+.child{
+    border: 2px solid;
+}
+
+.child > p{
+    background-color: tan;
+}
+
+/*General sibling Combinator*/
+.general {
+    border: 2px solid;
+}
+
+.general ~ p{
+    background-color: tan;
+}
+
+/*Adjacent sibling Combinator*/
+
+.adjacent {
+    border: 2px solid;
+}
+
+.adjacent + p{
+    background-color: tan;
+}
+
+/*PSEUDO-CLASSES IN CSS*/
+
+#pc1{
+    width: 190px;
+    height: 80px;
+    font-size: 2em;
+    border-radius: 10px;
+    color: white;
+    background-color: tomato;
+    cursor: pointer;
+}
+
+#pc1:hover{
+    background-color: white;
+    box-shadow: 3px 3px 10px black;
+    color: tomato;
+}
+
+#pc2{
+    width: 190px;
+    height: 80px;
+    font-size: 2em;
+    border-radius: 10px;
+    color: white;
+    background-color: lightblue;
+    cursor: pointer;
+}
+
+#pc2:active{
+    background-color: white;
+    box-shadow: 3px 3px 10px black;
+    color: lightblue;
+}
+
+/*TYPE OF :NTH-CHILD*/
+
+#pc3 li:nth-child(3){
+    background-color: skyblue;
+}
+
+#pc4 li:nth-child(odd){
+    background-color: lightsalmon;
+}
+
+#pc5 li:nth-child(even){
+    background-color: lightcoral;
+}
+
+#pc6 li:nth-child(3n){
+    background-color: lightgrey;
+}
+
+#pc7 li:nth-child(3n+1){
+    background-color: lightseagreen;
+}
+
+/*PSEUDO ELEMENTS IN CSS*/
+
+#pe1::first-letter{
+    font-size: 2em;
+    color: turquoise;
+}
+
+#pe2::first-line{
+    background-color: bisque;
+}
+
+#sam{
+    background-color: rgb(29, 156, 235);
+    color: white;
+}
+
+#sam1{
+    color: lightslategray;
+    background-color: blanchedalmond;
+}
+
+#pe3::selection{
+    color: lightslategray;
+    background-color: blanchedalmond;
+}
+
+#fruit li::before{
+    content: "✅";
+}
+
+#apple::after{
+    content: "🍎";
+}
+
+#banana::after{
+    content: "🍌";
+}
+
+#mango::after{
+    content: "🥭";
+}
+
+#orange::after{
+    content: "🍊";
+}
+
+#fruity li::marker{
+    content: "📝";
+    font-size: 1.2em;
+}
+
+/*PAGINATION IN CSS*/
+
+.pagination {
+    text-align: center;
+}
+
+.pagination a{
+    text-decoration: none;
+    color: black;
+    padding: 8px 18px;
+    display: inline-block;
+}
+
+.pagination a.active{
+    background-color: palevioletred;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.pagination a:hover:not(.active){
+    background-color: lightpink;
+    border-radius: 5px;
+}
+
+/*DROPDOWN MENU IN CSS*/
+
+.dropdown{
+    display: inline-block;
+}
+
+.dropdown button{
+    width: 150px;
+    height: 50px;
+    background-color: bisque;
+    color: black;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown button::after{
+    content: " 🔻";
+}
+
+.dropdown button:hover{
+    background-color: rgb(250, 214, 170);
+    color: black;
+}
+
+.dropdown a{
+    text-decoration: none;
+    padding: 10px 53px;
+    color: black;
+    display: block;
+}
+
+.dropdown .content{
+    background-color: aliceblue;
+    position: absolute;
+    display: none;
+}
+
+.dropdown:hover .content{
+    display: block;
+    border-radius: 5px;
+}
+
+.dropdown a:hover{
+    background-color: skyblue;
+    border-radius: 5px;
+}
+
+.dropdown a.active{
+    background-color: rgb(171, 219, 238);
+    border-radius: 5px;
+    color: white;
+}
+
+.dropdown a:hover:not(.active){
+    background-color: blanchedalmond;
+}
+
+/*NAVIFATION BAR IN CSS*/
+
+.navbar h2{
+    text-align: center;
+    
+} 
+
+.navbar ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    background-color: lightpink;
+    overflow: hidden;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 15px;
+}
+
+.navbar a:hover{
+    background-color: lightgrey;
+}
+
+.navbar li{
+    float: left;
+}
+
+.nav_content img{
+    float: left;
+    margin: 5px;
+}
+
+.nav_content{
+    border: 2px solid;
+    padding: 5px;
+    display: flow-root;
+    margin: 20px;
+}
+
+/*WEBSITE LAYOUT*/
+
+.wl_container{
+    border: 2px solid;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.wl_container header{
+    text-align: center;
+    background-color: burlywood;
+}
+
+.wl_container aside{
+    width: 20%;
+    float: left;
+    padding: 10px;
+}
+
+.wl_container section{
+    width: 40%;
+    float: left;
+    padding: 10px;
+}
+
+.wl_container article{
+    width: 40%;
+    float: left;
+    padding: 10px;
+}
+
+.wl_container footer{
+    display: block;
+    text-align: center;
+    background-color: burlywood;
+    clear: both;
+}
+
+/*IMAGE GALLERY*/
+
+.gallery{
+    border: 1px solid grey;
+    display: inline-block;
+    margin: 5px;
+    width: 200px;
+}
+
+.gallery .description{
+    text-align: center;
+}
+
+.gallery img{
+    width: 100%;
+    height: auto;
+}
+
+.gallery:hover{
+    border: 2px solid black;
+    box-shadow: 3px 3px 5px black;
+}
+
+/*ICONS IN CSS*/
+
+.icons{
+    text-align: center;
+}
+
+.icons a{
+    text-decoration: none;
+    margin-right: 5px;
+}
+
+.fa-brands.fa-facebook.fa-5x{
+    color: hsl(240, 100%, 50%);
+}
+
+.fa-brands.fa-facebook.fa-5x:hover{
+    color: hsl(240, 100%, 70%);
+}
+
+.fa-brands.fa-facebook-messenger.fa-5x{
+    color: hsl(204, 100%, 50%);
+}
+
+.fa-brands.fa-facebook-messenger.fa-5x:hover{
+    color: hsl(204, 100%, 70%);
+}
+
+.fa-brands.fa-opera.fa-5x{
+    color : hsl(355, 100%, 55%);
+}
+
+.fa-brands.fa-opera.fa-5x:hover{
+    color : hsl(355, 100%, 75%);
+}
+
+.fa-brands.fa-twitter.fa-5x{
+    color: hsl(198, 74%, 51%);
+}
+
+.fa-brands.fa-twitter.fa-5x:hover{
+    color: hsl(198, 74%, 71%);
+}
+
+.fa-brands.fa-youtube.fa-5x{
+    color: hsl(352, 92%, 36%);
+}
+
+.fa-brands.fa-youtube.fa-5x:hover{
+    color: hsl(352, 92%, 56%);
+}
+
+/*FLEX PROPERTY IN CSS*/
+
+.fbox{
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 4em;
+    border: 1px solid;
+}
+
+/*flex-direction property*/
+
+/*row*/
+
+.container{
+    border: 1px solid;
+    display: flex;
+    flex-direction: row;
+}
+
+#box1{
+    background-color: hsl(6, 93%, 71%);
+}
+
+#box2{
+    background-color: hsl(59, 93%, 71%);
+}
+
+#box3{
+    background-color: hsl(120, 93%, 71%);
+}
+
+#box4{
+    background-color: hsl(212, 93%, 71%);
+}
+
+/*row-reverse*/
+
+.container1{
+    border: 1px solid;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#box5{
+    background-color: hsl(6, 93%, 71%);
+}
+
+#box6{
+    background-color: hsl(59, 93%, 71%);
+}
+
+#box7{
+    background-color: hsl(120, 93%, 71%);
+}
+
+#box8{
+    background-color: hsl(212, 93%, 71%);
+}
+
+/*column*/
+
+.container2{
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+}
+
+#box9{
+    background-color: hsl(6, 93%, 71%);
+}
+
+#box10{
+    background-color: hsl(59, 93%, 71%);
+}
+
+#box11{
+    background-color: hsl(120, 93%, 71%);
+}
+
+#box12{
+    background-color: hsl(212, 93%, 71%);
+}
+
+/*column-reverse*/
+
+.container3{
+    border: 1px solid;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+#box13{
+    background-color: hsl(6, 93%, 71%);
+}
+
+#box14{
+    background-color: hsl(59, 93%, 71%);
+}
+
+#box15{
+    background-color: hsl(120, 93%, 71%);
+}
+
+#box16{
+    background-color: hsl(212, 93%, 71%);
+}
+
+/*justify-content property*/
+
+/*flex-start*/
+
+.container4{
+    border: 1px solid;
+    display: flex;
+    justify-content: flex-start;
+}
+
+#box17{
+    background-color: hsl(6, 93%, 71%);
+}
+
+#box18{
+    background-color: hsl(59, 93%, 71%);
+}
+
+#box19{
+    background-color: hsl(120, 93%, 71%);
+}
+
+#box20{
+    background-color: hsl(212, 93%, 71%);
+}
+
+/*flex-start*/
+
+.container5{
+    border: 1px solid;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#box21{
+    background-color: hsl(6, 93%, 71%);
+}
+
+#box22{
+    background-color: hsl(59, 93%, 71%);
+}
+
+#box23{
+    background-color: hsl(120, 93%, 71%);
+}
+
+#box24{
+    background-color: hsl(212, 93%, 71%);
+}
+
+/*center*/
+
+.container6{
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+}
+
+#box25{
+    background-color: hsl(6, 93%, 71%);
+}
+
+#box26{
+    background-color: hsl(59, 93%, 71%);
+}
+
+#box27{
+    background-color: hsl(120, 93%, 71%);
+}
+
+#box28{
+    background-color: hsl(212, 93%, 71%);
+}
+
+/*space-between*/
+
+.container7{
+    border: 1px solid;
+    display: flex;
+    justify-content: space-between;
+}
+
+#box29{
+    background-color: hsl(6, 93%, 71%);
+}
+
+#box30{
+    background-color: hsl(59, 93%, 71%);
+}
+
+#box31{
+    background-color: hsl(120, 93%, 71%);
+}
+
+#box32{
+    background-color: hsl(212, 93%, 71%);
+}
+
+/*space-around*/
+
+.container8{
+    border: 1px solid;
+    display: flex;
+    justify-content: space-around;
+}
+
+#box33{
+    background-color: hsl(6, 93%, 71%);
+}
+
+#box34{
+    background-color: hsl(59, 93%, 71%);
+}
+
+#box35{
+    background-color: hsl(120, 93%, 71%);
+}
+
+#box36{
+    background-color: hsl(212, 93%, 71%);
+}
+
+/*space-evenly*/
+
+.container9{
+    border: 1px solid;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#box37{
+    background-color: hsl(6, 93%, 71%);
+}
+
+#box38{
+    background-color: hsl(59, 93%, 71%);
+}
+
+#box39{
+    background-color: hsl(120, 93%, 71%);
+}
+
+#box40{
+    background-color: hsl(212, 93%, 71%);
+}
+
+/*align-items property*/
+
+/*flex-start*/
+
+.container10{
+    border: 1px solid;
+    height: 50vh;
+    display: flex;
+    align-items: flex-start;
+}
+
+#box41{
+    background-color: hsl(6, 93%, 71%);
+}
+
+#box42{
+    background-color: hsl(59, 93%, 71%);
+}
+
+#box43{
+    background-color: hsl(120, 93%, 71%);
+}
+
+#box44{
+    background-color: hsl(212, 93%, 71%);
+}
+
+/*flex-en*/
+
+.container11{
+    border: 1px solid;
+    height: 50vh;
+    display: flex;
+    align-items: flex-end;
+}
+
+#box45{
+    background-color: hsl(6, 93%, 71%);
+}
+
+#box46{
+    background-color: hsl(59, 93%, 71%);
+}
+
+#box47{
+    background-color: hsl(120, 93%, 71%);
+}
+
+#box48{
+    background-color: hsl(212, 93%, 71%);
+}
+
+.container12{
+    border: 1px solid;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+}
+
+#box49{
+    background-color: hsl(6, 93%, 71%);
+}
+
+#box50{
+    background-color: hsl(59, 93%, 71%);
+}
+
+#box51{
+    background-color: hsl(120, 93%, 71%);
+}
+
+#box52{
+    background-color: hsl(212, 93%, 71%);
+}
+
+.container13{
+    border: 1px solid;
+    height: 50vh;
+    display: flex;
+    align-items: baseline;
+}
+
+#box53{
+    font-size: 2em;
+    background-color: hsl(6, 93%, 71%);
+}
+
+#box54{
+    background-color: hsl(59, 93%, 71%);
+}
+
+#box55{
+    background-color: hsl(120, 93%, 71%);
+}
+
+#box56{
+    background-color: hsl(212, 93%, 71%);
+}
+
+/*flex-warp property*/
+
+/*wrap*/
+
+.container14{
+    border: 1px solid;
+    height: 60vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#box57{
+    background-color: hsl(6, 93%, 71%);
+}
+
+#box58{
+    background-color: hsl(59, 93%, 71%);
+}
+
+#box59{
+    background-color: hsl(120, 93%, 71%);
+}
+
+#box60{
+    background-color: hsl(212, 93%, 71%);
+}
+
+/*nowrap*/
+
+.container15{
+    border: 1px solid;
+    height: 60vh;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+#box61{
+    background-color: hsl(6, 93%, 71%);
+}
+
+#box62{
+    background-color: hsl(59, 93%, 71%);
+}
+
+#box63{
+    background-color: hsl(120, 93%, 71%);
+}
+
+#box64{
+    background-color: hsl(212, 93%, 71%);
+}
+
+/*wrap-reverse*/
+
+.container16{
+    border: 1px solid;
+    height: 60vh;
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+
+#box65{
+    background-color: hsl(6, 93%, 71%);
+}
+
+#box66{
+    background-color: hsl(59, 93%, 71%);
+}
+
+#box67{
+    background-color: hsl(120, 93%, 71%);
+}
+
+#box68{
+    background-color: hsl(212, 93%, 71%);
+}
+
+/*TRANSFORM PROPERTY IN CSS*/
+
+/*translate*/
+
+.transform{
+    border: 1px solid;
+    padding: 10px;
+    margin: 8px;
+}
+
+#t1{
+    width: 150px;
+    height: 150px;
+    border: 1px solid;
+    font-size: 8em;
+    text-align: center;
+    background-color: bisque;
+
+    transform: translate(20px, 5px);
+}
+
+/*rotate X*/
+
+#t2{
+    width: 150px;
+    height: 150px;
+    border: 1px solid;
+    font-size: 8em;
+    text-align: center;
+    background-color: lightseagreen;
+
+    transform: rotateX(180deg);
+}
+
+/*rotate Y*/
+
+#t3{
+    width: 150px;
+    height: 150px;
+    border: 1px solid;
+    font-size: 8em;
+    text-align: center;
+    background-color: lightsalmon;
+
+    transform: rotateY(180deg);
+}
+
+/*rotate Y*/
+
+#t4{
+    width: 150px;
+    height: 150px;
+    border: 1px solid;
+    font-size: 8em;
+    text-align: center;
+    background-color: aliceblue;
+
+    transform: rotateZ(90deg);
+}
+
+/*scale (X-axis, Y-axis*/
+
+#t5{
+    width: 150px;
+    height: 150px;
+    border: 1px solid;
+    font-size: 8em;
+    text-align: center;
+    background-color: lightgreen;
+
+    transform: scale(1,1);
+}
+
+/*scale X (X-axis)*/
+
+#t6{
+    width: 150px;
+    height: 150px;
+    border: 1px solid;
+    font-size: 8em;
+    text-align: center;
+    background-color: lightskyblue;
+
+    transform: scaleX(0.5);
+}
+
+/*scale Y (Y-axis)*/
+
+#t7{
+    width: 150px;
+    height: 150px;
+    border: 1px solid;
+    font-size: 8em;
+    text-align: center;
+    background-color: lightgrey;
+
+    transform: scaleY(0.5);
+}
+
+/*skew*/
+
+/*skew (X-axis, Y-axis*/
+
+#t8{
+    width: 150px;
+    height: 150px;
+    border: 1px solid;
+    font-size: 8em;
+    text-align: center;
+    background-color: lightgoldenrodyellow;
+
+    transform: skew(1deg, 6deg);
+}
+
+#t9{
+    width: 150px;
+    height: 150px;
+    border: 1px solid;
+    font-size: 8em;
+    text-align: center;
+    background-color: pink;
+
+    transform: skewX(170deg);
+}
+
+#t10{
+    width: 150px;
+    height: 150px;
+    border: 1px solid;
+    font-size: 8em;
+    text-align: center;
+    background-color: olivedrab;
+
+    transform: skewY(170deg);
+}
+
+.tras_box{
+    width: 100px;
+    height: 100px;
+    border: 1px solid;
+    font-size: 5em;
+    text-align: center;
+    margin: 5px;
+
+    transform: translateX(150%) rotateZ(50deg) scale(0.9);
+}
+
+#tb1{
+    background-color: chartreuse;
+}
+
+#tb2{
+    background-color: thistle;
+}
+
+#tb3{
+    background-color: tan;
+}
+
+/*ANIMATION IN CSS*/
+
+.anime_container{
+    border: 1px solid;
+    padding: 5px;
+}
+
+/*slide animation*/
+
+.abox1{
+    width: 180px;
+    height: 60px;
+    padding: 5px;
+    font-size: 2.5em;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: aquamarine;
+    cursor: pointer;    
+    
+    animation-name: slideLeft;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes slideLeft {
+    from {transform: translateX(200%);}
+}
+
+.abox2{
+    width: 180px;
+    height: 60px;
+    padding: 5px;
+    color: white;
+    font-size: 2.5em;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: palevioletred;
+    cursor: pointer;
+    
+    animation-name: slideRight;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes slideRight {
+    to {transform: translateX(200%);}
+}
+
+.abox3{
+    width: 180px;
+    height: 60px;
+    padding: 5px;
+    color: white;
+    font-size: 2.5em;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: goldenrod;
+    cursor: pointer;
+    
+    animation-name: slideUp;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes slideUp {
+    from {transform: translateY(200%);}
+}
+
+.abox4{
+    width: 180px;
+    height: 60px;
+    padding: 5px;
+    color: white;
+    font-size: 2.3em;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: purple;
+    cursor: pointer;
+    
+    animation-name: slideDown;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes slideDown {
+    to {transform: translateY(200%);}
+}
+
+/*rotate animation*/
+
+.abox5{
+    color: white;
+    width: 180px;
+    height: 60px;
+    padding: 5px;
+    font-size: 2.5em;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: green;
+    cursor: pointer;
+    
+    animation-name: rotateX;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rotateX {
+    to {transform: rotateX(180deg);}
+}
+
+.abox6{
+    color: white;
+    width: 180px;
+    height: 60px;
+    padding: 5px;
+    font-size: 2.5em;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: blue;
+    cursor: pointer;
+    
+    animation-name: rotateY;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rotateY {
+    from {transform: rotateY(180deg);}
+}
+
+.abox7{
+    color: white;
+    width: 180px;
+    height: 60px;
+    padding: 5px;
+    font-size: 2.5em;
+    text-align: center;
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: maroon;
+    cursor: pointer;    
+    
+    animation-name: rotateZ;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rotateZ {
+    100% {transform: rotateZ(180deg);}
+}
+
+/*shrink*/
+
+.abox8{
+    color: white;
+    width: 180px;
+    height: 60px;
+    padding: 5px;
+    font-size: 2.5em;
+    text-align: center;
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: chocolate;
+    cursor: pointer;
+    
+    animation-name: shrink;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shrink {
+    50% {transform: scale(0.5,0.5);}
+}
+
+.abox9{
+    color: white;
+    width: 180px;
+    height: 60px;
+    padding: 5px;
+    font-size: 2.5em;
+    text-align: center;
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: orchid;
+    cursor: pointer;
+    
+    animation-name: grow;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes grow {
+    50% {transform: scale(2,2);}
+}
+
+/*fade*/
+
+.abox10{
+    color: white;
+    width: 180px;
+    height: 60px;
+    padding: 5px;
+    font-size: 2.5em;
+    text-align: center;
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: lawngreen;
+    cursor: pointer;
+
+    animation-name: fadeIn;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes fadeIn {
+    50% {opacity: 0;}
+}
+
+.abox11{
+    color: white;
+    width: 180px;
+    height: 60px;
+    padding: 5px;
+    font-size: 2.5em;
+    text-align: center;
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: royalblue;
+    cursor: pointer;
+
+    animation-name: fadeOut;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes fadeOut {
+    100% {opacity: 0;}
+}
+
+/*color change*/
+
+.abox12{
+    color: white;
+    width: 230px;
+    height: 60px;
+    padding: 5px;
+    font-size: 2.5em;
+    text-align: center;
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: lightsalmon;
+    cursor: pointer;
+
+    animation-name: changeColor;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes changeColor{
+    0%{background-color: lightblue;}
+    20%{background-color: greenyellow;}
+    40%{background-color: lightseagreen;}
+    60%{background-color: lightgreen;}
+    80%{background-color: salmon;}
+    100%{background-color: lightskyblue;}
+}
+
+/*glow*/
+
+.abox13{
+    color: white;
+    width: 230px;
+    height: 60px;
+    padding: 5px;
+    font-size: 2.5em;
+    text-align: center;
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: hotpink;
+    cursor: pointer;
+    
+    animation-name: glow;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes glow{
+    50%{box-shadow: 3px 3px 50px purple;}
+    50%{border: 2px solid white;}
+}
